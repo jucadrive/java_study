@@ -1,20 +1,20 @@
-String Å¬·¡½ºÀÇ »ý¼ºÀÚ¿Í ¸Þ¼­µå
+String Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú¿ï¿½ ï¿½Þ¼ï¿½ï¿½ï¿½
 
-String(String s) : ÁÖ¾îÁø ¹®ÀÚ¿­(s)À» °®´Â String ÀÎ½ºÅÏ½º¸¦ »ý¼ºÇÑ´Ù.
+String(String s) : ï¿½Ö¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½(s)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ String ï¿½Î½ï¿½ï¿½Ï½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 	String s = new String("Hello");
 	s = "Hello"
 	
-String(char[] value) : ÁÖ¾îÁø ¹®ÀÚ¿­(value)À» °®´Â String ÀÎ½ºÅÏ½º¸¦ »ý¼ºÇÑ´Ù.
+String(char[] value) : ï¿½Ö¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½(value)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ String ï¿½Î½ï¿½ï¿½Ï½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 	char[] c = {'H', 'e', 'l', 'l', 'o'};
 	String s = new String(c);
 	s = "Hello"
 	
-String(StringBuffer buf) : StringBuffer ÀÎ½ºÅÏ½º°¡ °®°í ÀÖ´Â ¹®ÀÚ¿­°ú °°Àº ³»¿ëÀÇ String ÀÎ½ºÅÏ½º¸¦ »ý¼ºÇÑ´Ù.
+String(StringBuffer buf) : StringBuffer ï¿½Î½ï¿½ï¿½Ï½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ String ï¿½Î½ï¿½ï¿½Ï½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 	StringBuffer sb = new StringBuffer("Hello");
 	String s = new String(sb);
 	s = "Hello"
 	
-char charAt(int index) : ÁöÁ¤µÈ À§Ä¡(index)¿¡ ÀÖ´Â ¹®ÀÚ¸¦ ¾Ë·ÁÁØ´Ù(index´Â 0ºÎÅÍ ½ÃÀÛ)
+char charAt(int index) : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡(index)ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ë·ï¿½ï¿½Ø´ï¿½(indexï¿½ï¿½ 0ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
 	String s = "Hello";
 	String n = "0123456";
 	char c = s.charAt(1);
@@ -22,7 +22,7 @@ char charAt(int index) : ÁöÁ¤µÈ À§Ä¡(index)¿¡ ÀÖ´Â ¹®ÀÚ¸¦ ¾Ë·ÁÁØ´Ù(index´Â 0ºÎÅÍ
 	c = 'e'
 	c2 = '1'
 	
-int compareTo(String str) : ¹®ÀÚ¿­(str)°ú »çÀü ¼ø¼­·Î ºñ±³ÇÑ´Ù. °°À¸¸é 0À», »çÀü¼øÀ¸·Î ÀÌÀüÀÌ¸é À½¼ö¸¦, ÀÌÈÄ¸é ¾ç¼ö¸¦ ¹ÝÈ¯ÇÑ´Ù.
+int compareTo(String str) : ï¿½ï¿½ï¿½Ú¿ï¿½(str)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ñ´ï¿½. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½Ä¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ñ´ï¿½.
 	int i = "aaa".compareTo("aaa");
 	int i2 = "aaa".compareTo("bbb");
 	int i3 = "bbb".compareTo("aaa");
@@ -30,56 +30,56 @@ int compareTo(String str) : ¹®ÀÚ¿­(str)°ú »çÀü ¼ø¼­·Î ºñ±³ÇÑ´Ù. °°À¸¸é 0À», »çÀü
 	i2 = -1
 	i3 = 1
 	
-String concat(String str) : ¹®ÀÚ¿­(str)À» µÚ¿¡ µ¡ºÙÀÎ´Ù.
+String concat(String str) : ï¿½ï¿½ï¿½Ú¿ï¿½(str)ï¿½ï¿½ ï¿½Ú¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½.
 	String s = "Hello";
 	String s2 = s.concat(" World");
 	s2 = "Hello World"
 	
-boolean contains(CharSequence s) : ÁöÁ¤µÈ ¹®ÀÚ¿­(s)ÀÌ Æ÷ÇÔµÇ¾îÀÖ´ÂÁö °Ë»çÇÑ´Ù.
+boolean contains(CharSequence s) : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½(s)ï¿½ï¿½ ï¿½ï¿½ï¿½ÔµÇ¾ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ï¿½Ñ´ï¿½.
 	String s = "abcdefg";
 	boolean b = s.contains("bc");
 	b = true
 	
-boolean endsWith(String suffix) : ÁöÁ¤µÈ ¹®ÀÚ¿­(suffix)·Î ³¡³ª´ÂÁö °Ë»çÇÑ´Ù.
+boolean endsWith(String suffix) : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½(suffix)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ï¿½Ñ´ï¿½.
 	String file = "Hello.txt";
 	boolean b = file.endsWidth("txt");
 	b = true
 	
-boolean equals(Object obj) : ¸Å°³º¯¼ö·Î ¹ÞÀº ¹®ÀÚ¿­(obj)°ú String ÀÎ½ºÅÏ½ºÀÇ ¹®ÀÚ¿­À» ºñ±³ÇÑ´Ù. obj°¡ StringÀÌ ¾Æ´Ï°Å³ª
-														 ¹®ÀÚ¿­ÀÌ ´Ù¸£¸é false¸¦ ¹ÝÈ¯ÇÑ´Ù.
+boolean equals(Object obj) : ï¿½Å°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½(obj)ï¿½ï¿½ String ï¿½Î½ï¿½ï¿½Ï½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ñ´ï¿½. objï¿½ï¿½ Stringï¿½ï¿½ ï¿½Æ´Ï°Å³ï¿½
+														 ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½Ù¸ï¿½ï¿½ï¿½ falseï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ñ´ï¿½.
 	String s = "Hello";
 	boolean b = s.equals("Hello");
 	boolean b2 = s.equals("hello");
 	b = true
 	b2 = false
 	
-boolean equalsIgnoreCase(String str) : ¹®ÀÚ¿­°ú String ÀÎ½ºÅÏ½ºÀÇ ¹®ÀÚ¿­À» ´ë¼Ò¹®ÀÚ ±¸ºÐ¾øÀÌ ºñ±³ÇÑ´Ù.
+boolean equalsIgnoreCase(String str) : ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ String ï¿½Î½ï¿½ï¿½Ï½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ð¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ñ´ï¿½.
 	String s = "Hello";
 	boolean b = s.equalsIgnoreCase("Hello");
 	boolean b2 = s.equalsIgnoreCase("heLLo");
 	b = true
 	b2 = true
 	
-int indexOf(int ch) : ÁÖ¾îÁø ¹®ÀÚ(ch)°¡ ¹®ÀÚ¿­¿¡ Á¸ÀçÇÏ´ÂÁö È®ÀÎÇÏ¿© À§Ä¡(index)¸¦ ¾Ë·ÁÁØ´Ù. ¸ø Ã£À¸¸é -1À» ¹ÝÈ¯ÇÑ´Ù.(index´Â 0ºÎÅÍ ½ÃÀÛ)
+int indexOf(int ch) : ï¿½Ö¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ch)ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½Ä¡(index)ï¿½ï¿½ ï¿½Ë·ï¿½ï¿½Ø´ï¿½. ï¿½ï¿½ Ã£ï¿½ï¿½ï¿½ï¿½ -1ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ñ´ï¿½.(indexï¿½ï¿½ 0ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
 	String s = "Hello";
 	int idx1 = s.indexOf('o');
 	int idx2 = s.indexOf('k');
 	idx1 = 4
 	idx2 = -1
 	
-int indexOf(int ch, int pos) : ÁÖ¾îÁø ¹®ÀÚ(ch)°¡ ¹®ÀÚ¿­¿¡ Á¸ÀçÇÏ´ÂÁö ÁöÁ¤µÈ À§Ä¡(pos)ºÎÅÍ È®ÀÎÇÏ¿© À§Ä¡(index)¸¦ ¾Ë·ÁÁØ´Ù. ¸ø Ã£¤µÀ¸¸é -1 ¹ÝÈ¯(index 0ºÎÅÍ ½ÃÀÛ)
+int indexOf(int ch, int pos) : ï¿½Ö¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ch)ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡(pos)ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½Ä¡(index)ï¿½ï¿½ ï¿½Ë·ï¿½ï¿½Ø´ï¿½. ï¿½ï¿½ Ã£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -1 ï¿½ï¿½È¯(index 0ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
 	String s = "Hello";
 	int idx1 = s.indexOf('e', 0);
 	int idx2 = s.indexOf('e', 2);
 	idx1 = 1
 	idx2 = -1
 	
-int indexOf(String str) : ÁÖ¾îÁø ¹®ÀÚ¿­ÀÌ Á¸ÀçÇÏ´ÂÁö È®ÀÎÇÏ¿© ±× À§Ä¡(index)¸¦ ¾Ë·ÁÁØ´Ù. ¾øÀ¸¸é -1 ¹ÝÈ¯.(index´Â 0ºÎÅÍ ½ÃÀÛ)
+int indexOf(String str) : ï¿½Ö¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ ï¿½ï¿½Ä¡(index)ï¿½ï¿½ ï¿½Ë·ï¿½ï¿½Ø´ï¿½. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -1 ï¿½ï¿½È¯.(indexï¿½ï¿½ 0ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
 	String s = "ABCDEFG";
 	int idx = s.indexOf("CD");
 	idx = 2
 	
-String intern() : ¹®ÀÚ¿­À» »ó¼öÇ®(constant pool)¿¡ µî·ÏÇÑ´Ù. ÀÌ¹Ì »ó¼öÇ®¿¡ °°Àº ³»¿ëÀÇ ¹®ÀÚ¿­ÀÌ ÀÖÀ» °æ¿ì ±× ¹®ÀÚ¿­ÀÇ ÁÖ¼Ò°ªÀ» ¹ÝÈ¯ÇÑ´Ù.
+String intern() : ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ç®(constant pool)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½. ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½Ç®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½Ö¼Ò°ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ñ´ï¿½.
  String s = new String("abc");
  String s2 = new String("abc");
  boolean b = (s == s2);
@@ -88,3 +88,5 @@ String intern() : ¹®ÀÚ¿­À» »ó¼öÇ®(constant pool)¿¡ µî·ÏÇÑ´Ù. ÀÌ¹Ì »ó¼öÇ®¿¡ °°Àº 
  b = false
  b2 = true
  b3 = true
+ 
+ int lastIndexOf(int ch)
